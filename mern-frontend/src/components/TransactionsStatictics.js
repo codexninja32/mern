@@ -1,7 +1,6 @@
 // src/components/TransactionsStatistics.js
 import React, { useEffect, useState } from "react";
-import { fetchStatistics } from "/api/productAPI";
-import "./styles.css";
+import { fetchStatistics } from "../api/ProductAPI"; // Ensure this path is correct
 
 const TransactionsStatistics = ({ month }) => {
   const [statistics, setStatistics] = useState({ totalSales: 0, soldItems: 0, unsoldItems: 0 });

@@ -1,8 +1,8 @@
 // src/components/TransactionsPieChart.js
 import React, { useEffect, useState } from "react";
 import { Pie } from "react-chartjs-2";
-import { fetchPieChartData } from "/api/productAPI";
-import "./styles.css";
+import { fetchPieChartData } from "../api/ProductAPI";
+import "../styles.css";
 
 const TransactionsPieChart = ({ month }) => {
   const [chartData, setChartData] = useState({ labels: [], datasets: [] });

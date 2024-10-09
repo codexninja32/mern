@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { fetchTransactions } from "/api/productAPI";
+import { fetchTransactions } from "../api/ProductAPI";
 
 const TransactionsTable = () => {
   const [transactions, setTransactions] = useState([]);

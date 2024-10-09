@@ -1,7 +1,7 @@
 // src/App.js
 import React, { useState } from "react";
 import TransactionsTable from "./components/TransactionsTable";
-import TransactionsStatistics from "./components/TransactionsStatistics";
+import TransactionsStatistics from "./components/TransactionsStatictics.js";
 import TransactionsBarChart from "./components/TransactionsBarChart";
 import TransactionsPieChart from "./components/TransactionsPieChart";
 import "./styles.css";

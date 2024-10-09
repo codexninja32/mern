@@ -1,9 +1,9 @@
 // src/components/TransactionsBarChart.js
 import React, { useEffect, useState } from "react";
 import { Bar } from "react-chartjs-2";
-import { fetchBarChartData } from "/api/productAPI";
+import { fetchBarChartData } from "../api/ProductAPI";
 import { Chart as ChartJS } from 'chart.js/auto';
-import "./styles.css";
+import "../styles.css";
 
 const TransactionsBarChart = ({ month }) => {
   const [chartData, setChartData] = useState({ labels: [], datasets: [] });
